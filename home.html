@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter da Lu</title>
+</head>
+<body>
+    <div class="container">
+        <!-- cabeçalho com logo -->
+        <header class="cabecalho">
+            <figure class="cabecalho__logo">
+                <img src="img/bird 1.svg" alt=" Logo do site">
+                <figurecaption> Logo </figurecaption>
+            </figure>
+
+            <!-- menu lateral, área de navegação -->
+            <nav class="cabecalho__menuNavegacao">
+                <!-- lista não ordernada de links -->
+                <ul class="cabecalho__menuLista">
+                    <li class="cabecalho__menuItem">
+                        <img src="img/Home.png" alt="">
+                        <a href="#">Página Inicial</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="img/Hashtag.png" alt="">
+                        <a href="#">Explorar</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="img/Notification.png" alt="">
+                        <a href="#">Notificações</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="img/Group.png" alt="">
+                        <a href="#">Mensagens</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="img/Group (1).png" alt="">
+                        <a href="#">Itens salvos</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="img/Group (2).png" alt="">
+                        <a href="#">Listas</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="img/ProfilePic.png" alt="">
+                        <a href="#">Perfil</a>
+                    </li>   
+                    <li class="cabecalho__menuItem">
+                        <img src="img/Group (3).png" alt="">
+                        <a href="#">Mais</a>
+                    </li>               
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- conteúdo da home -->
+        <main class="conteudoPrincipal">
+            <h3 class="conteudoPrincipal__titulo">Home</h3>
+            <!-- formulario com espaço para o twitter -->
+            <form action="#" class="conteudoPrincipal__formulario">
+                <textarea name="textodoTwitter" placeholder="O que está acontecendo?"></textarea>
+                <button type="submit"> Tweetar</button>
+            </form>
+                <!-- feed de notícias -->
+            <section class="conteudoPrincipal__feed">
+                <ul class="conteudoPrincipal__listaTweets">   <!--  lista de tweets -->
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt=""> <!--  imagem do usuário -->
+                        <div class="tweet__conteudo"> <!-- caixa com outras info do usuário -->
+                            <h2>Luelen Cavalheiro</h2>
+                            <span>@luelencavalheiro 13s</span>
+                            <p> Hello, world! rs</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt=""> <!--  imagem do usuário -->
+                        <div class="tweet__conteudo"> <!-- caixa com outras info do usuário -->
+                            <h2>Luelen Cavalheiro</h2>
+                            <span>@luelencavalheiro 8s</span>
+                            <p> Com esse simples projeto aprendi mais sobre HTML, CSS e JavaScript! Eu tô muuuuuuito orgulhosa rs 🥳🥳🥳🥳🥳🥳🥳🥳</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt=""> <!--  imagem do usuário -->
+                        <div class="tweet__conteudo"> <!-- caixa com outras info do usuário -->
+                            <h2>Luelen Cavalheiro</h2>
+                            <span>@luelencavalheiro 5s</span>
+                            <p>Agora é continuar ir estudando programação para aprender cada dia mais. Será que um dia eu consigo criar uma cópia completa do Twitter? Essa é a meta rs</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt=""> <!--  imagem do usuário -->
+                        <div class="tweet__conteudo"> <!-- caixa com outras info do usuário -->
+                            <h2>Luelen Cavalheiro</h2>
+                            <span>@luelencavalheiro 3s</span>
+                            <p>Rumo a dominação feminina tech rs 💃💃💃💃💃</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt=""> <!--  imagem do usuário -->
+                        <div class="tweet__conteudo"> <!-- caixa com outras info do usuário -->
+                            <h2>Luelen Cavalheiro</h2>
+                            <span>@luelencavalheiro 1s</span>
+                            <p>Ei, se você é da Trybe esse é seu sinal para me dar uma oportunidade na TurmaXP. Imagina o que posso criar com a ajuda de vocês? 💚💚💚</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt=""> <!--  imagem do usuário -->
+                        <div class="tweet__conteudo"> <!-- caixa com outras info do usuário -->
+                            <h2>Luelen Cavalheiro</h2>
+                            <span>@luelencavalheiro 1s</span>
+                            <p>Me chama para sua tribo!💚💚💚</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
